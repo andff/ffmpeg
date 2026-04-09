@@ -1,7 +1,8 @@
 # Códigos ffmpeg
 
+Todos utilizados no Prompt de Comandos (DOS) ou PowerShell
 
-## Instalar
+## Instalar usando Winget
 ```
 winget install Gyan.FFmpeg
 ```
