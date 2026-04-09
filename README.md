@@ -3,12 +3,12 @@ ffmpeg
 
 # Instalar
 
-winget install Gyan.FFmpeg
-winget install Gyan.FFmpeg.Essentials
+```winget install Gyan.FFmpeg```
+```winget install Gyan.FFmpeg.Essentials```
 
 # Verificar instalacion
 
-ffmpeg -version
+```ffmpeg -version```
 
 # Converter video em outro formato
 
@@ -57,4 +57,3 @@ ffmpeg -i entrada.mp4 -q:v 0 -an -s 1280x720 -r 30 -c:v libx264 -c:a aac -c:s mo
 # Converter video em outro formato com qualidade e sem audio e com outra resolução e com outra taxa de quadros e com outro codec e com outro codec de audio e com outro codec de audio e com outro codec de audio e com outro codec de audio e com outro codec de audio e com outro codec de audio
 
 ffmpeg -i entrada.mp4 -q:v 0 -an -s 1280x720 -r 30 -c:v libx264 -c:a aac -c:s mov_text -c:a:0 aac -c:a:1 aac -c:s:0 mov_text -c:s:1 mov_text -c:a:0 aac -c:a:1 aac -c:s:0 mov_text -c:s:1 mov_text -c:a:0 aac -c:a:1 aac -c:s:0 mov_text -c:s:1 mov_text saida.avi
-    
