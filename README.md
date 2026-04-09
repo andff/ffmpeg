@@ -3,12 +3,17 @@ ffmpeg
 
 # Instalar
 
-```winget install Gyan.FFmpeg```
-```winget install Gyan.FFmpeg.Essentials```
+```
+winget install Gyan.FFmpeg
+```
+
+```
+winget install Gyan.FFmpeg.Essentials
+```
 
 # Verificar instalacion
 
-```ffmpeg -version```
+ffmpeg -version
 
 # Converter video em outro formato
 
