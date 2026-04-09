@@ -2,6 +2,11 @@
 
 Todos utilizados no Prompt de Comandos (DOS) ou PowerShell
 
+
+## Baixe e instale (Download)
+
+<a href="https://ffmpeg.org/download.html" target="_blank">https://ffmpeg.org/download.html</a>
+
 ## Instalar usando Winget
 ```
 winget install Gyan.FFmpeg
