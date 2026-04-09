@@ -1,0 +1,9 @@
+import subprocess
+
+subprocess.run([
+    "ffmpeg",
+    "-i", "video.mp4",
+    "-q:a", "0",
+    "-map", "a",
+    "audio.mp3"
+])
